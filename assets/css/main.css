@@ -1,0 +1,122 @@
+/* link to variables.scss file */
+/* VARIABLES */
+/* colors */
+/* fonts */
+/* 1. Main Layout ================================= */
+* {
+  box-sizing: border-box; }
+
+body {
+  background-image: url(../img/slack-bkg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: lato;
+  font-size: 1em; }
+
+.header {
+  background-color: #fff;
+  height: 70px; }
+  .header img {
+    padding: 20px;
+    width: 140px;
+    position: absolute; }
+
+.top {
+  background-color: rgba(255, 255, 255, 0.78);
+  margin-top: 50px;
+  padding-bottom: 25px; }
+  .top h1 {
+    font-size: 2em;
+    text-align: center;
+    padding-top: 20px; }
+  .top p {
+    padding: 13px 15px;
+    text-align: center;
+    line-height: 1.4em; }
+  .top h3 {
+    color: #fff;
+    text-align: center;
+    padding: 17px;
+    background-color: #e01765;
+    border-radius: 12px;
+    margin: auto;
+    width: 120px; }
+    .top h3 a {
+      text-decoration: none;
+      color: #fff; }
+    .top h3:hover {
+      text-align: center;
+      padding: 17px;
+      background-color: #3eb890;
+      border-radius: 12px;
+      margin: auto;
+      width: 120px; }
+
+.icon-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 60px;
+  background-color: #4d394b;
+  padding-bottom: 40px; }
+  .icon-section h2 {
+    padding: 20px 0 9px 0;
+    color: #fff;
+    font-size: 1.4em; }
+  .icon-section p {
+    color: #fff;
+    font-size: .9em;
+    line-height: 1.7em;
+    margin: 0 60px;
+    padding-bottom: 15px; }
+  .icon-section img {
+    padding-top: 38px;
+    width: 16%; }
+  @media (min-width: 800px) {
+    .icon-section {
+      flex-direction: row;
+      overflow-x: hidden; }
+      .icon-section p {
+        margin: 0 30px; }
+      .icon-section div {
+        width: 300px;
+        padding: 20px 20px 0 20px; } }
+
+footer {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column; }
+  footer ul {
+    display: flex;
+    flex-direction: row; }
+    footer ul li {
+      white-space: nowrap;
+      padding: 25px 0;
+      margin: auto; }
+      footer ul li a {
+        text-decoration: none;
+        color: #e01765; }
+      footer ul li a:hover {
+        color: #3eb890;
+        font-weight: bold; }
+  footer .footer-bkg {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-image: url(../img/slack-bkg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; }
+  footer img {
+    padding: 20px 23px; }
+    footer img:hover {
+      opacity: 0.3; }
+  footer .youtube {
+    padding-top: 25px; }
+  @media (min-width: 800px) {
+    footer ul {
+      width: 500px;
+      margin: auto; } }
+
+/*# sourceMappingURL=main.css.map */

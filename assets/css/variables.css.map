@@ -1,0 +1,1 @@
+{"version":3,"file":"variables.css","sources":["variables.scss"],"sourcesContent":["/* VARIABLES */ \n$slack-purple: #4d394b;\n$slack-blue: #70cadb;\n$slack-orange: #e8a723;\n$slack-pink: #e01765;\n$slack-green: #3eb890;\n$text-color: #fff;"],"names":[],"mappings":"AAAA,eAAe"}
